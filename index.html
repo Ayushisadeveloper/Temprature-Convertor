@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temprature Convertor</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="outer p-4">
+        <h2 class="text-center">Temprature Convertor</h2>
+        <form class="pt-4">
+            <div class="row p-0 m-0">
+                <div class="col-4 p-0 text-center"><label>Temprature</label></div>
+                <div class="col-8 p-0"><input type="text" id="insert" class="form-control"
+                        placeholder="Enter Temprature"></div>
+            </div>
+            <div class="row pt-3 m-0">
+                <div class="col-4 p-0"></div>
+                <div class="col-8 p-0"><input type="text" id="display" class="form-control" readonly></div>
+            </div>
+            <div class="buttons">
+                <button type="button" id="ftoc" class="btn btn-secondary">℉ to ℃</button>
+                <button type="button" id="ctof" class="btn btn-secondary">℃ to ℉</button>
+                <button type="button" id="clear" class="btn btn-secondary">Reset</button>
+            </div>
+        </form>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
